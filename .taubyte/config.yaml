@@ -2,7 +2,6 @@ version: "1.0"
 environment:
   image: node:16.18.0-alpine
   variables:
-    # On précise que les fichiers sont à la racine (.)
     SOURCE: .
 workflow:
   - build
